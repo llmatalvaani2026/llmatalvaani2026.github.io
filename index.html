@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AICTE ATAL VAANI Workshop on Large Language Models — 28–30 September 2026, Department of Computer Applications, CUSAT.">
+  <title>ATAL VAANI Workshop on Large Language Models | CUSAT</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Malayalam:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="#home" aria-label="ATAL VAANI Workshop home">
+        <span class="brand-mark">ATAL</span>
+        <span>
+          <strong>AICTE ATAL VAANI</strong>
+          <small>Large Language Models</small>
+        </span>
+      </a>
+      <nav class="desktop-nav">
+        <a href="#about" data-en="About" data-ml="പരിചയം">About</a>
+        <a href="#objectives" data-en="Objectives" data-ml="ലക്ഷ്യങ്ങൾ">Objectives</a>
+        <a href="#schedule" data-en="Schedule" data-ml="സെഷൻ ക്രമം">Schedule</a>
+        <a href="#speakers" data-en="Resource Persons" data-ml="വിഭവ വ്യക്തികൾ">Resource Persons</a>
+        <a href="#contact" data-en="Contact" data-ml="ബന്ധപ്പെടുക">Contact</a>
+      </nav>
+      <button id="langToggle" class="lang-btn" type="button" aria-label="Switch language">മലയാളം</button>
+      <button id="menuToggle" class="menu-btn" type="button" aria-label="Open menu">☰</button>
+    </div>
+    <nav id="mobileNav" class="mobile-nav">
+      <a href="#about" data-en="About" data-ml="പരിചയം">About</a>
+      <a href="#objectives" data-en="Objectives" data-ml="ലക്ഷ്യങ്ങൾ">Objectives</a>
+      <a href="#schedule" data-en="Schedule" data-ml="സെഷൻ ക്രമം">Schedule</a>
+      <a href="#speakers" data-en="Resource Persons" data-ml="വിഭവ വ്യക്തികൾ">Resource Persons</a>
+      <a href="#contact" data-en="Contact" data-ml="ബന്ധപ്പെടുക">Contact</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-glow"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow" data-en="AICTE ATAL VAANI WORKSHOP • 2026–27" data-ml="AICTE ATAL VAANI വർക്ക്‌ഷോപ്പ് • 2026–27">AICTE ATAL VAANI WORKSHOP • 2026–27</div>
+          <h1 data-en="Large Language<br><span>Models</span>" data-ml="ലാർജ് ലാംഗ്വേജ്<br><span>മോഡലുകൾ</span>">Large Language<br><span>Models</span></h1>
+          <p class="hero-sub" data-en="A three-day hands-on workshop on LLM architecture, applications, prompt engineering, agents, security, evaluation and future research." data-ml="LLM ആർക്കിടെക്ചർ, ആപ്ലിക്കേഷനുകൾ, പ്രോംപ്റ്റ് എൻജിനീയറിംഗ്, AI ഏജന്റുകൾ, സുരക്ഷ, മൂല്യനിർണ്ണയം, ഭാവി ഗവേഷണം എന്നിവയെക്കുറിച്ചുള്ള മൂന്ന് ദിവസത്തെ പ്രായോഗിക വർക്ക്‌ഷോപ്പ്.">
+            A three-day hands-on workshop on LLM architecture, applications, prompt engineering, agents, security, evaluation and future research.
+          </p>
+          <div class="date-pill">
+            <span>▣</span>
+            <strong>28 – 30 September 2026</strong>
+          </div>
+          <div class="hero-actions">
+            <a href="#registration" class="btn btn-primary" data-en="Register Now" data-ml="ഇപ്പോൾ രജിസ്റ്റർ ചെയ്യുക">Register Now</a>
+            <a href="#schedule" class="btn btn-ghost" data-en="View Schedule" data-ml="സെഷൻ ക്രമം കാണുക">View Schedule</a>
+          </div>
+          <div class="countdown" aria-label="Event countdown">
+            <div><strong id="days">--</strong><span data-en="Days" data-ml="ദിവസങ്ങൾ">Days</span></div>
+            <div><strong id="hours">--</strong><span data-en="Hours" data-ml="മണിക്കൂർ">Hours</span></div>
+            <div><strong id="minutes">--</strong><span data-en="Minutes" data-ml="മിനിറ്റ്">Minutes</span></div>
+            <div><strong id="seconds">--</strong><span data-en="Seconds" data-ml="സെക്കൻഡ്">Seconds</span></div>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="logo-row">
+            <div class="logo-placeholder">ATAL</div>
+            <div class="logo-placeholder aicte">AICTE<br><small>VAANI</small></div>
+          </div>
+          <div class="hero-card-line"></div>
+          <p data-en="Organized by" data-ml="സംഘാടനം">Organized by</p>
+          <h2 data-en="Department of Computer Applications" data-ml="കമ്പ്യൂട്ടർ ആപ്ലിക്കേഷൻസ് വകുപ്പ്">Department of Computer Applications</h2>
+          <h3>Cochin University of Science and Technology</h3>
+          <p class="location">Kochi – 682022, Kerala</p>
+          <div class="campus-photo">
+            <img src="assets/brochure.png" alt="Workshop brochure featuring the CUSAT campus" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section intro" id="about">
+      <div class="container two-col">
+        <div>
+          <p class="section-kicker" data-en="About the initiative" data-ml="പദ്ധതിയെക്കുറിച്ച്">About the initiative</p>
+          <h2 data-en="AI education in Indian languages" data-ml="ഇന്ത്യൻ ഭാഷകളിലെ AI വിദ്യാഭ്യാസം">AI education in Indian languages</h2>
+          <p data-en="The All India Council for Technical Education (AICTE) launched the VAANI initiative — Vibrant Advocacy for Advancement and Nurturing of Indian Languages — to promote Indian languages in technical education, especially in emerging technologies." data-ml="അഖിലേന്ത്യാ സാങ്കേതിക വിദ്യാഭ്യാസ കൗൺസിൽ (AICTE) ആരംഭിച്ച VAANI (Vibrant Advocacy for Advancement and Nurturing of Indian Languages) സംരംഭം, പ്രത്യേകിച്ച് ഉയർന്നുവരുന്ന സാങ്കേതികവിദ്യകളിൽ, സാങ്കേതിക വിദ്യാഭ്യാസത്തിൽ ഇന്ത്യൻ ഭാഷകളെ പ്രോത്സാഹിപ്പിക്കുന്നതിനാണ്.">
+            The All India Council for Technical Education (AICTE) launched the VAANI initiative — Vibrant Advocacy for Advancement and Nurturing of Indian Languages — to promote Indian languages in technical education, especially in emerging technologies.
+          </p>
+          <p data-en="This workshop brings LLM concepts closer to learners through accessible, inclusive and practical learning, with a special emphasis on Malayalam." data-ml="മലയാളത്തിന് പ്രത്യേക പ്രാധാന്യം നൽകി, എളുപ്പത്തിൽ മനസ്സിലാക്കാവുന്നതും ഉൾക്കൊള്ളുന്നതുമായ പ്രായോഗിക പഠനത്തിലൂടെ LLM ആശയങ്ങളെ പഠിതാക്കളിലേക്ക് കൂടുതൽ അടുത്തെത്തിക്കുകയാണ് ഈ വർക്ക്‌ഷോപ്പ് ലക്ഷ്യമിടുന്നത്.">
+            This workshop brings LLM concepts closer to learners through accessible, inclusive and practical learning, with a special emphasis on Malayalam.
+          </p>
+        </div>
+        <div class="quote-card">
+          <span class="quote-icon">“</span>
+          <p data-en="Empowering Minds, Enabling Innovation, Enriching Indian Languages" data-ml="മനസ്സുകളെ ശാക്തീകരിച്ച്, നവീകരണത്തിന് വഴിയൊരുക്കി, ഇന്ത്യൻ ഭാഷകളെ സമ്പന്നമാക്കുക">Empowering Minds, Enabling Innovation, Enriching Indian Languages</p>
+          <small>— Workshop theme</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark-section" id="objectives">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker light" data-en="What you will gain" data-ml="നിങ്ങൾ നേടുന്നത്">What you will gain</p>
+          <h2 data-en="Workshop Objectives" data-ml="വർക്ക്‌ഷോപ്പിന്റെ ലക്ഷ്യങ്ങൾ">Workshop Objectives</h2>
+        </div>
+        <div class="objective-grid">
+          <article class="objective-card"><span>01</span><h3 data-en="Practical LLM understanding" data-ml="LLM-കളെക്കുറിച്ചുള്ള പ്രായോഗിക ധാരണ">Practical LLM understanding</h3><p data-en="Understand LLM architecture, applications, prompt engineering, AI agents, security, evaluation, deployment and future research." data-ml="LLM ആർക്കിടെക്ചർ, ആപ്ലിക്കേഷനുകൾ, പ്രോംപ്റ്റ് എൻജിനീയറിംഗ്, AI ഏജന്റുകൾ, സുരക്ഷ, മൂല്യനിർണ്ണയം, വിന്യാസം, ഭാവി ഗവേഷണം എന്നിവ മനസ്സിലാക്കുക.">Understand LLM architecture, applications, prompt engineering, AI agents, security, evaluation, deployment and future research.</p></article>
+          <article class="objective-card"><span>02</span><h3 data-en="AI awareness & inclusion" data-ml="AI അവബോധവും ഉൾക്കൊള്ളലും">AI awareness & inclusion</h3><p data-en="Promote AI awareness and inclusion by improving accessibility and understanding." data-ml="പ്രവേശനക്ഷമതയും ധാരണയും മെച്ചപ്പെടുത്തി AI അവബോധവും ഉൾക്കൊള്ളലും പ്രോത്സാഹിപ്പിക്കുക.">Promote AI awareness and inclusion by improving accessibility and understanding.</p></article>
+          <article class="objective-card"><span>03</span><h3 data-en="Indian-language technical education" data-ml="ഇന്ത്യൻ ഭാഷകളിലെ സാങ്കേതിക വിദ്യാഭ്യാസം">Indian-language technical education</h3><p data-en="Make AI learning more accessible, inclusive and effective through native-language instruction." data-ml="മാതൃഭാഷാ അധ്യാപനത്തിലൂടെ AI പഠനം കൂടുതൽ എളുപ്പവും ഉൾക്കൊള്ളുന്നതും ഫലപ്രദവുമാക്കുക.">Make AI learning more accessible, inclusive and effective through native-language instruction.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="schedule">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker" data-en="Three-day programme" data-ml="മൂന്ന് ദിവസത്തെ പരിപാടി">Three-day programme</p>
+          <h2 data-en="Technical Sessions" data-ml="സാങ്കേതിക സെഷനുകൾ">Technical Sessions</h2>
+        </div>
+        <div class="schedule-list">
+          <article class="schedule-day">
+            <div class="day-number">28</div>
+            <div class="day-meta"><strong>SEP</strong><span>Session I & II</span></div>
+            <div class="day-topics">
+              <h3 data-en="Fundamentals of LLM and Evaluation" data-ml="LLM-കളുടെ അടിസ്ഥാനങ്ങളും മൂല്യനിർണ്ണയവും">Fundamentals of LLM and Evaluation</h3>
+              <h3 data-en="Transformer Architecture and Prompt Engineering" data-ml="ട്രാൻസ്ഫോർമർ ആർക്കിടെക്ചറും പ്രോംപ്റ്റ് എൻജിനീയറിംഗും">Transformer Architecture and Prompt Engineering</h3>
+            </div>
+          </article>
+          <article class="schedule-day">
+            <div class="day-number">29</div>
+            <div class="day-meta"><strong>SEP</strong><span>Session III & IV</span></div>
+            <div class="day-topics">
+              <h3 data-en="Fine Tuning and RAG" data-ml="ഫൈൻ ട്യൂണിംഗും RAG-യും">Fine Tuning and RAG</h3>
+              <h3 data-en="LLM Security, Safety and Ethical AI" data-ml="LLM സുരക്ഷ, സേഫ്റ്റി, എതിക്കൽ AI">LLM Security, Safety and Ethical AI</h3>
+            </div>
+          </article>
+          <article class="schedule-day">
+            <div class="day-number">30</div>
+            <div class="day-meta"><strong>SEP</strong><span>Session V & VI</span></div>
+            <div class="day-topics">
+              <h3 data-en="Advanced LLM Applications and AI Agents" data-ml="അഡ്വാൻസ്ഡ് LLM ആപ്ലിക്കേഷനുകളും AI ഏജന്റുകളും">Advanced LLM Applications and AI Agents</h3>
+              <h3 data-en="LLM Evaluation, Deployment and Future Research" data-ml="LLM മൂല്യനിർണ്ണയം, വിന്യാസം, ഭാവി ഗവേഷണം">LLM Evaluation, Deployment and Future Research</h3>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section speakers-section" id="speakers">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker" data-en="Learn from practitioners" data-ml="വിദഗ്ധരിൽ നിന്ന് പഠിക്കാം">Learn from practitioners</p>
+          <h2 data-en="Resource Persons" data-ml="വിഭവ വ്യക്തികൾ">Resource Persons</h2>
+        </div>
+        <div class="speaker-grid">
+          <article class="speaker"><div class="avatar">RR</div><h3>Dr. R. Rajesh</h3><p>Professor</p><small>Department of Computer Science, Central University of Kerala, Kasaragod</small></article>
+          <article class="speaker"><div class="avatar">LL</div><h3>Mr. Lince Lawrence</h3><p>Global Leader & Technologist, EY</p><small>Trivandrum</small></article>
+          <article class="speaker"><div class="avatar">VD</div><h3>Dr. Vinod P.</h3><p>Professor & Head, Department of Computer Applications</p><small>Cochin University of Science and Technology, Kochi-22, Kerala</small></article>
+          <article class="speaker"><div class="avatar">SM</div><h3>Dr. Sabu M. K.</h3><p>Professor</p><small>Department of Computer Applications, Cochin University of Science and Technology, Kochi-22, Kerala</small></article>
+          <article class="speaker"><div class="avatar">SJ</div><h3>Mr. Saj Janin J.</h3><p>Associate Director</p><small>Cognizant Technology Solution, Kochi, Kerala</small></article>
+          <article class="speaker"><div class="avatar">DN</div><h3>Mr. Danwand N. S.</h3><p>Senior Security Consultant</p><small>AEET Team, EY GDS, Kochi, Kerala</small></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section outcomes" id="outcomes">
+      <div class="container two-col">
+        <div>
+          <p class="section-kicker" data-en="Expected outcomes" data-ml="പ്രതീക്ഷിക്കുന്ന ഫലങ്ങൾ">Expected outcomes</p>
+          <h2 data-en="From learning to application" data-ml="പഠനത്തിൽ നിന്ന് പ്രയോഗത്തിലേക്ക്">From learning to application</h2>
+        </div>
+        <ul class="check-list">
+          <li data-en="Improved understanding of LLMs and Generative AI in Malayalam." data-ml="മലയാളത്തിൽ LLM-കളെയും Generative AI-യെയും കുറിച്ചുള്ള മെച്ചപ്പെട്ട ധാരണ.">Improved understanding of LLMs and Generative AI in Malayalam.</li>
+          <li data-en="Ability to build and apply LLMs in academia and industry." data-ml="അക്കാദമിക് മേഖലയിലും വ്യവസായ മേഖലയിലും LLM-കൾ നിർമ്മിക്കുകയും പ്രയോഗിക്കുകയും ചെയ്യാനുള്ള കഴിവ്.">Ability to build and apply LLMs in academia and industry.</li>
+          <li data-en="Encouragement for research and innovation in Indian languages and technology." data-ml="ഇന്ത്യൻ ഭാഷകളിലും സാങ്കേതികവിദ്യയിലും ഗവേഷണവും നവീകരണവും പ്രോത്സാഹിപ്പിക്കുക.">Encouragement for research and innovation in Indian languages and technology.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section registration" id="registration">
+      <div class="container registration-grid">
+        <div>
+          <p class="section-kicker light" data-en="Open registration" data-ml="രജിസ്ട്രേഷൻ ആരംഭിച്ചു">Open registration</p>
+          <h2 data-en="Join the workshop" data-ml="വർക്ക്‌ഷോപ്പിൽ പങ്കെടുക്കൂ">Join the workshop</h2>
+          <p data-en="There is no registration fee. Scan the QR code to register." data-ml="രജിസ്ട്രേഷൻ ഫീസ് ഇല്ല. രജിസ്റ്റർ ചെയ്യാൻ QR കോഡ് സ്കാൻ ചെയ്യുക.">There is no registration fee. Scan the QR code to register.</p>
+          <div class="deadline-box">
+            <div><strong>18-09-2026</strong><span data-en="Registration deadline" data-ml="രജിസ്ട്രേഷന്റെ അവസാന തീയതി">Registration deadline</span></div>
+            <div><strong>22-09-2026</strong><span data-en="Notification to selected participants" data-ml="തിരഞ്ഞെടുക്കപ്പെട്ടവരെ അറിയിക്കുന്ന തീയതി">Notification to selected participants</span></div>
+          </div>
+        </div>
+        <div class="qr-card">
+          <img src="assets/registration-qr.png" alt="Registration QR code">
+          <p data-en="Scan to register" data-ml="രജിസ്റ്റർ ചെയ്യാൻ സ്കാൻ ചെയ്യുക">Scan to register</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section organizers">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker" data-en="Organizing team" data-ml="സംഘാടക സംഘം">Organizing team</p>
+          <h2 data-en="Coordinators" data-ml="കോഓർഡിനേറ്റർമാർ">Coordinators</h2>
+        </div>
+        <div class="coordinator-grid">
+          <article><div class="avatar gold">VP</div><h3>Dr. Vinod P.</h3><p>Professor and Head, Department of Computer Applications, CUSAT</p></article>
+          <article><div class="avatar gold">RK</div><h3>Dr. Rafidha Rehman K. A.</h3><p>Assistant Professor, Department of Computer Applications, CUSAT</p></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <div class="container footer-grid">
+      <div>
+        <div class="brand footer-brand"><span class="brand-mark">ATAL</span><span><strong>AICTE ATAL VAANI</strong><small>Large Language Models</small></span></div>
+        <p data-en="Department of Computer Applications<br>Cochin University of Science and Technology<br>Kochi – 682022, Kerala" data-ml="കമ്പ്യൂട്ടർ ആപ്ലിക്കേഷൻസ് വകുപ്പ്<br>കൊച്ചിൻ യൂണിവേഴ്സിറ്റി ഓഫ് സയൻസ് ആൻഡ് ടെക്നോളജി<br>കൊച്ചി – 682022, കേരളം">Department of Computer Applications<br>Cochin University of Science and Technology<br>Kochi – 682022, Kerala</p>
+      </div>
+      <div>
+        <h3 data-en="Contact Us" data-ml="ബന്ധപ്പെടുക">Contact Us</h3>
+        <a href="tel:+919846332185">+91 9846332185</a>
+        <a href="mailto:dcacusatworkshop@gmail.com">dcacusatworkshop@gmail.com</a>
+        <a href="https://dca.cusat.ac.in/" target="_blank" rel="noopener">dca.cusat.ac.in</a>
+      </div>
+      <div>
+        <h3 data-en="Important" data-ml="പ്രധാനപ്പെട്ടത്">Important</h3>
+        <a href="#registration" data-en="Registration" data-ml="രജിസ്ട്രേഷൻ">Registration</a>
+        <a href="#schedule" data-en="Technical Sessions" data-ml="സാങ്കേതിക സെഷനുകൾ">Technical Sessions</a>
+        <a href="#speakers" data-en="Resource Persons" data-ml="വിഭവ വ്യക്തികൾ">Resource Persons</a>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 Department of Computer Applications, CUSAT • <span data-en="AICTE ATAL VAANI Workshop" data-ml="AICTE ATAL VAANI വർക്ക്‌ഷോപ്പ്">AICTE ATAL VAANI Workshop</span></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
