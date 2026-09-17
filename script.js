@@ -15,6 +15,12 @@ function setLanguage(lang) {
   const button = document.getElementById("langToggle");
   button.textContent = translations[lang];
   localStorage.setItem("workshopLanguage", lang);
+
+  const brochureLink = document.getElementById("brochureLink");
+  if (brochureLink) {
+    brochureLink.href = brochureLink.dataset[lang + "-href"];
+  }
+
 }
 
 document.getElementById("langToggle").addEventListener("click", () => {
