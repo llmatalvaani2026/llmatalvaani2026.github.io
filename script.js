@@ -17,9 +17,14 @@ function setLanguage(lang) {
   localStorage.setItem("workshopLanguage", lang);
 
   const brochureLink = document.getElementById("brochureLink");
+
   if (brochureLink) {
-    brochureLink.href = brochureLink.dataset[lang + "-href"];
+  if (lang === "en") {
+    brochureLink.href = brochureLink.dataset.enHref;
+  } else {
+    brochureLink.href = brochureLink.dataset.mlHref;
   }
+}
 
 }
 
