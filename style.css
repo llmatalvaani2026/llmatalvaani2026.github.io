@@ -183,7 +183,7 @@ footer{background:#041431;color:#c8d4eb;padding:60px 0 0}
   height: 90px;
   border-radius: 50%;
   object-fit: cover;
-  object-position: center;
+  object-position: center top;
   display: block;
   margin-bottom: 17px;
 }
