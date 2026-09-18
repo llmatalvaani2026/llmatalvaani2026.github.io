@@ -198,3 +198,31 @@ footer{background:#041431;color:#c8d4eb;padding:60px 0 0}
   margin-bottom: 17px;
 }
 
+.qr-instruction {
+  margin: 10px 0 16px !important;
+  color: var(--navy) !important;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.eligibility {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid var(--border);
+  text-align: left;
+}
+
+.eligibility strong {
+  display: block;
+  color: var(--blue);
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.eligibility p {
+  margin: 0 !important;
+  color: var(--muted) !important;
+  font-size: 11px !important;
+  line-height: 1.55;
+}
+
